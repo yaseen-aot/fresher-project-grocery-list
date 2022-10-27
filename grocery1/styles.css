@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210deg 36% 96%);
+    
+    
+    
+}
+*{
+    font-family: "Roboto", sans-serif;;
+    font-style: normal; 
+    box-sizing: border-box; 
+}
+.container{
+    height: 100%;
+}
+.sectionone{
+    margin-top: 150px;
+    min-width: 560px;
+    min-height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+.grocerytitle{
+    font-family: "Open Sans", sans-serif;
+    color: hsl(205deg 86% 17%);
+    font-size: 28px;
+}
+#editbtn{
+    background-color: #fff;
+}
+#dltbtn{
+    background-color: #fff;
+}
+.gro-item{
+    padding-inline: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.msg-danger {
+    color: #721c24;
+    background: #f8d7da;
+  }
+  .msg-success {
+    color: #155724;
+    background: #d4edda;
+  }
+  .showgrocery{
+    visibility: visible;
+  }
+  /* .gro-div{
+    
+  } */
+  #clrbtn{
+    background: #fff;
+    border: none;
+    cursor: pointer;
+   letter-spacing: 0.25rem;
+   transition: all 0.3s linear;
+   color: hsl(360, 71%, 66%); ;
+    
+  }
+  .msg{
+    letter-spacing: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  #gro-input{
+    font-size: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color:  hsl(210, 22%, 49%);
+    border-color: transparent;
+
+  }
+  #gro-input::placeholder{
+    
+  }
+  #btnid{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
