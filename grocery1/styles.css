@@ -24,12 +24,16 @@ html,body{
     min-height: 300px;
     border-radius: 10px;
     background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
+    transition: all 0.3s linear;
+    border-radius: 0.5rem;;
     
 }
 .grocerytitle{
     font-family: "Open Sans", sans-serif;
     color: hsl(205deg 86% 17%);
     font-size: 28px;
+    letter-spacing: 2px;
 }
 #editbtn{
     background-color: #fff;
@@ -41,6 +45,7 @@ html,body{
     padding-inline: 10px;
     display: flex;
     justify-content: space-between;
+
 }
 .msg-danger {
     color: #721c24;
@@ -74,15 +79,38 @@ html,body{
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     color:  hsl(210, 22%, 49%);
-    border-color: transparent;
+    /* border-color: transparent; */
 
   }
   #gro-input::placeholder{
     
+    color:hsl(210, 22%, 49%);
   }
   #btnid{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     letter-spacing: 2px;
     cursor: pointer;
+    background:  hsl(205, 86%, 81%);
+    content:  #49a6e9;
+    transition:  all 0.3s linear;
   }
+  #inputhold{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  #editbtn {
+    color: hsl(125, 71%, 66%);
+    cursor: pointer;
+  }
+  #editbtn:hover {
+    color: hsl(125, 67%, 44%);
+  }
+  #dltbtn {
+    color: hsl(360, 71%, 66%);
+    cursor: pointer;
+  }
+  #dltbtn:hover {
+    color: hsl(360, 67%, 44%);
+  }
+ 
